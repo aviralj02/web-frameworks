@@ -1,0 +1,122 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(240, 240, 240);
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 10px;
+}
+.nav-left img{
+    width: 150px;
+}
+.nav-left{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 40px;
+}
+::placeholder{
+    color: rgb(70, 70, 70);
+}
+.nav-left input{
+    height: 40px;
+    width: 100%;
+    padding-left: 70px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(227, 247, 255);
+    font-size: 15px;
+    outline: none;
+}
+.search-bar{
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+}
+.search-bar span{
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    color: rgb(70, 70, 70);
+}
+
+
+.nav-right{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 40px;
+    justify-content: space-around;
+}
+.seller, .signin, .cart, .more{
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.f2{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    padding: 15px 100px;
+}
+.f2-item img{
+    width: 70px;
+}
+.f2-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    gap: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.carousel{
+    width: 100%;
+    height: 300px;
+    margin-top: 16px;
+}
+.carousel img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.electronics-bar{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 15px;
+    padding: 40px 20px;
+    gap: 20px;
+}
+.bar-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.electronics-bar-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(212, 212, 212);
+}
